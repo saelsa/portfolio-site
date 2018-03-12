@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'ONEDAY';
-    src: url(/fonts/ONEDAY.otf);
+    src: url("../fonts/ONEDAY.otf");
 }
 
 /* VARIABLES */
@@ -127,13 +127,18 @@ img {
     display: none;
 }
 
+.invisible {
+    opacity: 0;
+}
+
 
 /* HEADER */
 
 .hero {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(128, 128, 128, 0.47))), url(/images/hero.jpeg);
-    background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(128, 128, 128, 0.47)), url(/images/hero.jpeg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.72)), to(rgba(128, 128, 128, 0.47))), url("../images/hero.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(128, 128, 128, 0.47)), url("../images/hero.jpeg");
     background-size: auto;
+    background-attachment: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     -webkit-box-orient: vertical;
@@ -193,22 +198,22 @@ section:nth-of-type(even) h3::after {
 }
 
 .showcase-item:nth-of-type(1) {
-    background: url(/images/hermitcrab.jpg);
+    background: url("../images/hermitcrab.jpg");
     background-size: cover;
 }
 
 .showcase-item:nth-of-type(2) {
-    background: url(/images/empty-canvas.png);
+    background: url("../images/empty-canvas.png");
     background-size: cover;
 }
 
 .showcase-item:nth-of-type(3) {
-    background: url(/images/coffee.jpeg);
+    background: url("../images/coffee.jpeg");
     background-size: cover;
 }
 
 .showcase-item:nth-of-type(4) {
-    background: url(/images/laptop-notebook-working-outside-min.jpg);
+    background: url("../images/laptop-notebook-working-outside-min.jpg");
     background-size: cover;
 }
 
