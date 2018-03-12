@@ -12,9 +12,10 @@ $(function () {
     //activate animate.css effects on scrolling using waypoints
     //credit to http://imakewebthings.com/waypoints/
     $('.js__section-contact').waypoint(function (direction) {
+        $('.js__social-item').removeClass('invisible');
         $('.js__social-item').addClass('animated fadeIn');
     }, {
-        offset: '80%'
+        offset: '50%'
     });
 
 
